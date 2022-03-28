@@ -1,0 +1,23 @@
+%%  readme file
+%% 
+% Purpose: 
+% -To perform EMD on 3 channels of 2 dimensional data
+%
+% Input: 
+% - u: Signal 1
+% - v: Signal 2
+% - w: Signal 3
+% - param
+%   -nimfs: Number of IMFs to be extracted 
+%   -tol: Sifting tolerance value
+%   -type: type of window size to be used
+%   -plot: 'on' to plot results, 'off' to hide IMF plots
+%
+% Output:
+% - Results
+%   - IMF (structure containing IMFs of all three signals)
+%   - Residue (structure containing residue of all three signals)
+%   - Windows (Window sizes (5 types) for each IMF)
+%   - Sift_cnt (Number of sifting iterations for each signal)
+%   - IO (Index of orthogonality for each signal)
+%   - Error (Error of the decomposition for each signal)
