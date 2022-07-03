@@ -37,7 +37,7 @@ rw = (sin(x)+sin(y)) ;
 w   =  wc2 ;
 %+ wc2 + rw; %Signal 'w'
 
-Results = EMD2D3V(u,v,w,param);
+Results = BEMD2D3V(u,v,w,param);
 
 
 
